@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding-top: 75px;
+}
+
+.form-control {
+	margin-bottom: 10px;
+}
+
+table#schedule th {
+	text-align:center;
+	padding: 5px 10px;
+	background: #000;
+	color: #fff;
+}
+
+table#schedule th.blank {
+	padding: 5px 10px;
+	background: #fff;
+	color: #000;
+	border-top: none !important;
+	border-left: none !important;
+	outline: none;
+}
+
+
+table#schedule td.station {
+	padding: 5px 10px;
+	background: #000;
+	color: #fff;	
+	white-space: nowrap;
+	width: 200px;
+}
+
+table#schedule td {
+	text-align: center;
+}
+
+
+
+/**** MEDIA  QUERIES ***/
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
